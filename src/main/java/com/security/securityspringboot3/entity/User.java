@@ -1,5 +1,6 @@
-package com.security.securityspringboot3.user;
+package com.security.securityspringboot3.entity;
 
+import com.security.securityspringboot3.model.Role;
 import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.security.core.GrantedAuthority;

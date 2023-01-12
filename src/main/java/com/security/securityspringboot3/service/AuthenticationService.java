@@ -5,16 +5,14 @@ import com.security.securityspringboot3.model.AuthenticationRequest;
 import com.security.securityspringboot3.model.AuthenticationResponse;
 import com.security.securityspringboot3.model.RegisterRequest;
 import com.security.securityspringboot3.repository.UserRepository;
-import com.security.securityspringboot3.user.Role;
-import com.security.securityspringboot3.user.User;
+import com.security.securityspringboot3.model.Role;
+import com.security.securityspringboot3.entity.User;
 import lombok.RequiredArgsConstructor;
-import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
 @Service
